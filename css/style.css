@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
 }
@@ -18,7 +19,7 @@ body, html {
 }
 
 .header > .header_small {
-    font-size: .5rem;
+    font-size: 0.5rem;
     font-family: system-ui;
     height: 100%;
     display: flex;
@@ -31,16 +32,14 @@ body, html {
     justify-content: center;
 }
 
-
 .content {
     width: 85%;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
     .content {
-        width: 95%!important;
+        width: 95% !important;
     }
 }
-
 
 .content > .subtitle {
     font-size: 1.5rem;
@@ -50,24 +49,42 @@ body, html {
 }
 
 .content > .text {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-family: system-ui;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .content > .item {
     display: flex;
     flex-direction: column;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .content > .item > .item_title {
     font-size: 1.2rem;
     font-family: system-ui;
-    padding-left: .3rem;
+    padding-left: 0.3rem;
     border-left: 3px solid orange;
 }
 
 .content > .item > .item_title > a {
     color: rgb(47, 155, 228);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.text > .link > a {
+    color: rgb(47, 155, 228);
+}
+
+.footer {
+    height: 60px;
+    background-color: rgb(255, 213, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
 }
