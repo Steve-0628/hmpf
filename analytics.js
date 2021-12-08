@@ -15,5 +15,9 @@ if(document.head){
 
             gtag("config", "G-2M5YR0EYPS");
     `
-        document.head.appendChild(script);
+    document.head.appendChild(script);
+    viewport = document.createElement('meta');
+    viewport.name = 'viewport';
+    viewport.content = 'width=device-width, initial-scale=1.0';
+    document.head.appendChild(viewport);
 }
