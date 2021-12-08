@@ -6,7 +6,7 @@ if(document.head){
     document.head.appendChild(script);
     script = document.createElement('script');
     script.type = 'text/javascript';
-    script.innerHTML = ```
+    script.innerHTML = `
     window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
@@ -14,7 +14,6 @@ if(document.head){
             gtag("js", new Date());
 
             gtag("config", "G-2M5YR0EYPS");
-    
-    ```
-    document.head.appendChild(script);
+    `
+        document.head.appendChild(script);
 }
