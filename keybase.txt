@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/swin99
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hmpf.club
+  * I am swin99 (https://keybase.io/swin99) on keybase.
+  * I have a public key ASBcrhkkMrCfO2kuTeMARdOBbNYdEcZ92ArYor8apeZcpgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205cae192432b09f3b692e4de30045d3816cd61d11c67dd80ad8a2bf1aa5e65ca60a",
+      "host": "keybase.io",
+      "kid": "01205cae192432b09f3b692e4de30045d3816cd61d11c67dd80ad8a2bf1aa5e65ca60a",
+      "uid": "455e4cc02e5639c5fe670eae52f21119",
+      "username": "swin99"
+    },
+    "merkle_root": {
+      "ctime": 1639321187,
+      "hash": "23686a7e8b633fa9fe766e0af44388755e8b61fdb2d398aab3e8c256a74871d486b0868ed987669f650186d34ae18a1c898b34e48c8f4c287ed387f09a6d1502",
+      "hash_meta": "e8bb78aad12fa0c50ab0769300d24b8030ab6bc9fff710e18a15b01b6e3a1341",
+      "seqno": 21418042
+    },
+    "service": {
+      "entropy": "wnKWn9IPCT2hEFR2eRWhLDCi",
+      "hostname": "hmpf.club",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.0"
+  },
+  "ctime": 1639321224,
+  "expire_in": 504576000,
+  "prev": "464c8d330182185714be2c2f2c790a30a7cdb9b3de1359f688d2658ae27d53dc",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXK4ZJDKwnztpLk3jAEXTgWzWHRHGfdgK2KK/GqXmXKYKp3BheWxvYWTESpcCC8QgRkyNMwGCGFcUviwvLHkKMKfNubPeE1n2iNJliuJ9U9zEIDss6nnXLxDC/SucxxQw8rAZ54jz55Ecv+sU6pAInLD6AgHCo3NpZ8RA68fv3tynTrOI+JRXqPp/MMOPQsQBFobG36Tu+xXfENTFltc628ffpWJPdvxc39vczrj3cTEUHyNWaQ1tsXPMBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJxZnVqg+MkiF7tJ/oZCFXrkPZZ3cJKXV4mVQOYFSsxDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/swin99
+
+==================================================================
