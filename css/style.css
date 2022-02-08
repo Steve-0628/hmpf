@@ -89,3 +89,24 @@ html {
     align-items: center;
     color: gray;
 }
+
+.nad {
+    text-align: center;
+}
+
+.nad * {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .nad > .desktop {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .nad > .mobile {
+        display: block;
+    }
+}
