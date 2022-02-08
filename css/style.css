@@ -96,6 +96,7 @@ html {
 
 .nad * {
     display: none;
+    text-align: auto;
 }
 
 @media screen and (min-width: 600px) {
