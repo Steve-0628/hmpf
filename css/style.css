@@ -96,7 +96,6 @@ html {
 
 .nad * {
     display: none;
-    text-align: auto;
 }
 
 @media screen and (min-width: 600px) {
@@ -109,5 +108,6 @@ html {
 @media screen and (max-width: 600px) {
     .nad > .mobile {
         display: block;
+        text-align: left;
     }
 }
