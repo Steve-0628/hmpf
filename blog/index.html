@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>ブログ - hmpf.club</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5928162350251187" crossorigin="anonymous"></script>
+        <script src="/analytics.js"></script>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            const url = new URL(location.href);
+            const page = url.searchParams.get("page", 0);
+            const md_url = "/blog/" + page + ".md"
+            fetch(md_url)
+                .then(res => res.text())
+                .then(text => {
+                    document.querySelector(".app").innerHTML = marked(text)
+                })
+        </script>
+    </head>
+    <body>
+        <div class="app">
+        </div>
+    </body>
+</html>
