@@ -8,6 +8,7 @@
         <script src="/analytics.js"></script>
 
 
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script>
             const url = new URL(location.href);
             const page = (url.searchParams.get("page") || 0);
@@ -23,12 +24,12 @@
                 const html = marked.marked(md)
                 document.querySelector(".app").innerHTML = html
             }
+            window.onload = write_html
         </script>
         
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" onload="write_html()"></script>
     </head>
     <body>
-        <div class="app">
+        <div class="app loading">
         </div>
     </body>
 </html>
