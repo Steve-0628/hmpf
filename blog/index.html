@@ -8,14 +8,13 @@
         <script src="/analytics.js"></script>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" onload="write_html()"></script>
         <script>
             const url = new URL(location.href);
             const page = (url.searchParams.get("page") || 0);
             const md_url = "/blog/" + page + ".md"
             let md = ""
             fetch(md_url)
-                .then(res => res.text())
+                .then(res => {if(res.status == 200){return res.text()}else{return "# Blog Not Found. "}})
                 .then(text => {
                     md = text
                 })
@@ -25,6 +24,8 @@
                 document.querySelector(".app").innerHTML = html
             }
         </script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" onload="write_html()"></script>
     </head>
     <body>
         <div class="app">
